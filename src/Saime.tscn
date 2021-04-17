@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://saime.png" type="Texture" id=1]
 [ext_resource path="res://Saime.gd" type="Script" id=2]
 [ext_resource path="res://Hurtbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ombre.png" type="Texture" id=4]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -12,6 +13,10 @@
 collision_layer = 16
 collision_mask = 3
 script = ExtResource( 2 )
+
+[node name="ombre" type="Sprite" parent="."]
+position = Vector2( 1.58989, 3.52153 )
+texture = ExtResource( 4 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0.974213, -1.00669 )
