@@ -2,13 +2,21 @@ extends KinematicBody2D
 
 var knockback = Vector2.ZERO
 
-
+var movement = 0
+var dir = 1
+var vector = Vector2.UP
 
 func _physics_process(delta):
-	knockback = knockback.move_toward(Vector2.ZERO, 200*delta)
-	knockback = move_and_slide(knockback)
+	
+	movement += dir
+	if movement == 200 or movement == 0:
+		dir = -dir
+		vector = -vector
+
+	vector = vector.move_toward(vector * 10, 10* delta)
+	move_and_slide(vector)
+	
 
 func _on_Hurtbox_area_entered(_area):
-	get_tree().change_scene("res://Level2")
 	queue_free()
 	

@@ -60,3 +60,6 @@ func _physics_process(delta):
 				animationPlayer.play("AttackGauche")
 	velocity = move_and_slide(velocity)
 	
+func _on_Hurtbox_area_entered(area):
+	get_parent().get_parent().game_over()
+	

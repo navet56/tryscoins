@@ -3,8 +3,8 @@ extends MarginContainer
 
 const first_level = preload("res://Level1.tscn")
 
-onready var selector_quitter = $CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer/HBoxContainer/Selector1
-onready var selector_jouer = $CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer2/HBoxContainer/Selector2
+onready var selector_quitter = $Node2D/CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer/HBoxContainer/Selector1
+onready var selector_jouer = $Node2D/CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer/CenterContainer2/HBoxContainer/Selector2
 var current_selection = 0
 
 func _ready():
