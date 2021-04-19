@@ -1,0 +1,52 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://saime_rouge.png" type="Texture" id=1]
+[ext_resource path="res://RedSaime.gd" type="Script" id=2]
+[ext_resource path="res://Hurtbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ombre.png" type="Texture" id=4]
+[ext_resource path="res://Hitbox.tscn" type="PackedScene" id=5]
+
+[sub_resource type="CircleShape2D" id=1]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 12.1121
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 12.2908
+
+[node name="Saime" type="KinematicBody2D"]
+collision_layer = 16
+collision_mask = 3
+script = ExtResource( 2 )
+
+[node name="ombre" type="Sprite" parent="."]
+position = Vector2( 1.58989, 3.52153 )
+texture = ExtResource( 4 )
+
+[node name="saime_rouge" type="Sprite" parent="."]
+position = Vector2( 0.660746, 1.30763 )
+scale = Vector2( 0.970863, 0.965035 )
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 4.87674 )
+shape = SubResource( 1 )
+
+[node name="Hitbox" parent="." instance=ExtResource( 5 )]
+collision_mask = 4
+
+[node name="CollisionShape2D" parent="Hitbox" index="0"]
+shape = SubResource( 2 )
+
+[node name="Hurtbox" parent="." instance=ExtResource( 3 )]
+collision_layer = 8
+
+[node name="CollisionShape2D" parent="Hurtbox" index="0"]
+position = Vector2( -0.174826, 7.3986 )
+shape = SubResource( 3 )
+[connection signal="area_entered" from="Hitbox" to="." method="_on_Hitbox_area_entered"]
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]
+
+[editable path="Hitbox"]
+
+[editable path="Hurtbox"]

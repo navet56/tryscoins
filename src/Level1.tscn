@@ -60,9 +60,6 @@ position = Vector2( 238.805, -100.747 )
 [node name="Saime4" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( -145.648, -144.235 )
 
-[node name="Trycoin" parent="YSort" instance=ExtResource( 7 )]
-position = Vector2( 139.001, -1350.01 )
-
 [node name="Arbre" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 156.685, 91.1067 )
 
