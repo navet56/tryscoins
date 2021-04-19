@@ -180,6 +180,13 @@ scale = Vector2( 1.30746, 0.95454 )
 position = Vector2( -19.9954, -354.898 )
 scale = Vector2( 1.30746, 0.95454 )
 
+[node name="Sprite" parent="YSort/Trycoin2" index="0"]
+position = Vector2( -0.090229, 0.979248 )
+scale = Vector2( 0.412832, 0.487609 )
+
+[node name="CollisionShape2D" parent="YSort/Trycoin2" index="1"]
+position = Vector2( 0.249575, 1.5519 )
+
 [node name="Buisson102" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( 418.522, 111.981 )
 scale = Vector2( 1.30746, 0.95454 )
@@ -546,3 +553,5 @@ texture = ExtResource( 1 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 0, 0, 900, 1300 )
+
+[editable path="YSort/Trycoin2"]

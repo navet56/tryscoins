@@ -8,3 +8,7 @@ func _ready():
 func game_over():
 	get_tree().change_scene("res://GameOver.tscn")
 	queue_free()
+	
+func nextLevel():
+	get_tree().change_scene("res://Level2.tscn")
+	queue_free()

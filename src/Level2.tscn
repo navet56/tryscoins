@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://sol.png" type="Texture" id=1]
+[ext_resource path="res://music.ogg" type="AudioStream" id=3]
+[ext_resource path="res://Nozegan.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Trycoin.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Level1.gd" type="Script" id=8]
+[ext_resource path="res://Font.tres" type="DynamicFont" id=9]
+
+[node name="Level2" type="Node2D"]
+script = ExtResource( 8 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Trycoin2" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( -19.9954, -354.898 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Sprite" parent="YSort/Trycoin2" index="0"]
+position = Vector2( -0.090229, 0.979248 )
+scale = Vector2( 0.412832, 0.487609 )
+
+[node name="CollisionShape2D" parent="YSort/Trycoin2" index="1"]
+position = Vector2( 0.249575, 1.5519 )
+
+[node name="Label" type="Label" parent="YSort"]
+margin_left = 6.01086
+margin_top = -360.404
+margin_right = 74.0109
+margin_bottom = -344.404
+custom_fonts/font = ExtResource( 9 )
+text = "Trouvé !"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Nozegan" parent="YSort" instance=ExtResource( 6 )]
+position = Vector2( 192.021, 133.366 )
+
+[node name="Camera2D" type="Camera2D" parent="YSort/Nozegan"]
+current = true
+limit_left = -500
+limit_top = -4000
+limit_right = 500
+limit_bottom = 200
+smoothing_enabled = true
+
+[node name="Sol" type="Sprite" parent="."]
+position = Vector2( -554.008, -913.833 )
+scale = Vector2( 1.30746, 0.95454 )
+z_index = -2
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 900, 1300 )
+
+[editable path="YSort/Trycoin2"]

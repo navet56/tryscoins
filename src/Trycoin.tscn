@@ -1,10 +1,13 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://tryscoin.png" type="Texture" id=1]
 [ext_resource path="res://Trycoin.gd" type="Script" id=2]
-[ext_resource path="res://Hurtbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Hitbox.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 14.0898
 
 [node name="Trycoin" type="KinematicBody2D"]
 collision_layer = 16
@@ -19,7 +22,11 @@ texture = ExtResource( 1 )
 position = Vector2( 0.35849, 0.358482 )
 shape = SubResource( 1 )
 
-[node name="Hurtbox" parent="." instance=ExtResource( 3 )]
-collision_layer = 15
-collision_mask = 6
-[connection signal="area_entered" from="Hurtbox" to="." method="_on_Hurtbox_area_entered"]
+[node name="Hitbox" parent="." instance=ExtResource( 3 )]
+collision_mask = 4
+
+[node name="CollisionShape2D" parent="Hitbox" index="0"]
+shape = SubResource( 2 )
+[connection signal="area_entered" from="Hitbox" to="." method="_on_Hitbox_area_entered"]
+
+[editable path="Hitbox"]
