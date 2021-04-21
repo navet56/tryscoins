@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://buisson_bleue.png" type="Texture" id=1]
+[ext_resource path="res://ombre.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 7.1156, 21.9485 )
+
+[node name="Buisson" type="StaticBody2D"]
+position = Vector2( 28.7728, 21.4577 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 15 )
+rotation = 1.5708
+shape = SubResource( 1 )
+
+[node name="ombre" type="Sprite" parent="."]
+position = Vector2( 0, 12 )
+scale = Vector2( 1.43891, 1.35763 )
+z_index = -1
+texture = ExtResource( 2 )
+
+[node name="buisson_bleue" type="Sprite" parent="."]
+position = Vector2( 1.34589, 1.35335 )
+texture = ExtResource( 1 )

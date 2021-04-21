@@ -1,11 +1,18 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://sol.png" type="Texture" id=1]
 [ext_resource path="res://Level3.gd" type="Script" id=2]
 [ext_resource path="res://music.ogg" type="AudioStream" id=3]
+[ext_resource path="res://BlueBuisson.tscn" type="PackedScene" id=4]
+[ext_resource path="res://BlueSaime.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Nozegan.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Trycoin.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Arbre.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Font.tres" type="DynamicFont" id=9]
+[ext_resource path="res://Saime.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Buisson.tscn" type="PackedScene" id=11]
+[ext_resource path="res://RedBuisson.tscn" type="PackedScene" id=12]
+[ext_resource path="res://RedSaime.tscn" type="PackedScene" id=13]
 
 [node name="Level3" type="Node2D"]
 script = ExtResource( 2 )
@@ -23,6 +30,1383 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 900, 1300 )
 
 [node name="YSort" type="YSort" parent="."]
+
+[node name="Saime" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 89.4204, 21.7627 )
+
+[node name="Buisson" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 194.905, 0.66571 )
+
+[node name="Buisson2" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -17.8224, -76.6898 )
+
+[node name="Buisson8" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 363.18, 183.005 )
+
+[node name="Buisson203" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 363.18, 183.005 )
+
+[node name="Buisson204" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 363.18, 183.005 )
+
+[node name="Buisson205" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 363.18, 183.005 )
+
+[node name="Buisson207" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 363.18, 183.005 )
+
+[node name="Buisson221" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 49.6541, -169.711 )
+
+[node name="Buisson233" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 49.6541, -169.711 )
+
+[node name="Buisson234" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 49.6541, -169.711 )
+
+[node name="Buisson235" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 49.6541, -169.711 )
+
+[node name="Buisson250" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 53.0714, -250.172 )
+
+[node name="Saime7" parent="YSort" instance=ExtResource( 13 )]
+position = Vector2( 159.853, -196.008 )
+
+[node name="Buisson251" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 206.28, -243.982 )
+
+[node name="Buisson252" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 171.459, -244.756 )
+
+[node name="Buisson253" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 130.449, -242.435 )
+
+[node name="Buisson254" parent="YSort" instance=ExtResource( 12 )]
+position = Vector2( 91.7603, -245.53 )
+
+[node name="Buisson236" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 483.289, -253.769 )
+
+[node name="Buisson237" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 450.605, -269.195 )
+
+[node name="Buisson238" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 408.4, -269.195 )
+
+[node name="Buisson239" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 367.702, -269.196 )
+
+[node name="Buisson240" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 337.555, -258.644 )
+
+[node name="Buisson241" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 320.974, -239.049 )
+
+[node name="Buisson242" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 302.886, -213.424 )
+
+[node name="Buisson243" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 281.784, -187.799 )
+
+[node name="Buisson244" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 257.666, -157.653 )
+
+[node name="Buisson245" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 235.056, -135.043 )
+
+[node name="Buisson246" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 195.866, -122.984 )
+
+[node name="Buisson247" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 159.69, -139.565 )
+
+[node name="Buisson248" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 120.499, -150.116 )
+
+[node name="Buisson249" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 84.3228, -159.16 )
+
+[node name="Buisson222" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 4.43408, -178.755 )
+
+[node name="Buisson223" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -36.2639, -178.755 )
+
+[node name="Buisson224" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 13.4781, -255.63 )
+
+[node name="Buisson225" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -27.2199, -263.166 )
+
+[node name="Buisson226" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -64.9033, -273.717 )
+
+[node name="Buisson227" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -102.587, -285.776 )
+
+[node name="Buisson228" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -140.27, -287.283 )
+
+[node name="Buisson229" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -180.968, -288.791 )
+
+[node name="Buisson230" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -218.651, -287.284 )
+
+[node name="Buisson231" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -251.813, -275.225 )
+
+[node name="Buisson232" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -278.945, -266.181 )
+
+[node name="Buisson188" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -183.825, 145.593 )
+
+[node name="Sprite" parent="YSort/Buisson188" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson189" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -250.675, 117.577 )
+
+[node name="Sprite" parent="YSort/Buisson189" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Saime4" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( -340.401, -91.5013 )
+
+[node name="Saime5" parent="YSort" instance=ExtResource( 10 )]
+position = Vector2( -186.501, -148.501 )
+
+[node name="Saime6" parent="YSort" instance=ExtResource( 10 )]
+position = Vector2( 440.497, -202.651 )
+
+[node name="Buisson201" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -219.885, 130.891 )
+
+[node name="Sprite" parent="YSort/Buisson201" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson187" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 381.166, -3.52689 )
+
+[node name="Buisson202" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -217.035, 136.591 )
+
+[node name="Sprite" parent="YSort/Buisson202" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson206" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -219.885, 130.891 )
+
+[node name="Sprite" parent="YSort/Buisson206" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson208" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -287.646, -239.74 )
+
+[node name="Sprite" parent="YSort/Buisson208" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson209" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -279.946, -217.667 )
+
+[node name="Sprite" parent="YSort/Buisson209" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson210" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -273.273, -199.7 )
+
+[node name="Sprite" parent="YSort/Buisson210" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson211" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -142.884, -207.913 )
+
+[node name="Sprite" parent="YSort/Buisson211" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson212" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -138.264, -184.3 )
+
+[node name="Sprite" parent="YSort/Buisson212" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson213" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -245.552, -189.433 )
+
+[node name="Sprite" parent="YSort/Buisson213" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson214" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -134.157, -164.279 )
+
+[node name="Sprite" parent="YSort/Buisson214" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson215" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -241.959, -171.466 )
+
+[node name="Sprite" parent="YSort/Buisson215" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson216" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -238.879, -151.959 )
+
+[node name="Sprite" parent="YSort/Buisson216" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson217" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -132.104, -144.773 )
+
+[node name="Sprite" parent="YSort/Buisson217" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson218" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -231.692, -137.072 )
+
+[node name="Sprite" parent="YSort/Buisson218" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson219" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -226.045, -119.619 )
+
+[node name="Sprite" parent="YSort/Buisson219" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Buisson220" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -126.836, -128.871 )
+
+[node name="Sprite" parent="YSort/Buisson220" index="0"]
+position = Vector2( -6.95267, 3.95503 )
+scale = Vector2( 0.946488, 0.861306 )
+
+[node name="Arbre2" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 310.939, 102.634 )
+
+[node name="Arbre3" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 108.759, 136.038 )
+
+[node name="Arbre" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 240.615, 30.5531 )
+
+[node name="Arbre4" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -112.759, 28.795 )
+
+[node name="Arbre5" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -75.8392, -39.7701 )
+
+[node name="Buisson28" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 317.971, -71.4154 )
+
+[node name="Buisson29" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 302.148, -55.5927 )
+
+[node name="Buisson30" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 281.051, -30.9796 )
+
+[node name="Buisson31" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 256.438, -15.1568 )
+
+[node name="Buisson32" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 230.067, 7.69824 )
+
+[node name="Buisson33" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 430.488, 76.2634 )
+
+[node name="Buisson34" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 397.085, 81.5376 )
+
+[node name="Buisson35" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 356.649, 93.8442 )
+
+[node name="Buisson36" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 333.794, 114.941 )
+
+[node name="Buisson37" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 344.342, 132.522 )
+
+[node name="Buisson38" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 354.891, 153.283 )
+
+[node name="Buisson39" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -277.738, -10.927 )
+
+[node name="Buisson40" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -249.317, -28.8217 )
+
+[node name="Buisson41" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -224.054, -47.769 )
+
+[node name="Buisson42" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -33.5287, 191.178 )
+
+[node name="Buisson43" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -58.7918, 182.756 )
+
+[node name="Buisson44" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -89.318, 164.862 )
+
+[node name="Buisson45" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -124.055, 152.23 )
+
+[node name="Buisson46" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -165.107, 240.651 )
+
+[node name="Buisson47" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 143.313, 235.388 )
+
+[node name="Buisson48" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -177.739, 32.2307 )
+
+[node name="Buisson49" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -145.107, 21.7044 )
+
+[node name="Buisson50" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 460.154, 62.7569 )
+
+[node name="Buisson51" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 484.364, 50.1254 )
+
+[node name="Buisson52" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 492.785, 39.5991 )
+
+[node name="Buisson53" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 491.733, 18.5465 )
+
+[node name="Buisson57" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 491.733, 18.5465 )
+
+[node name="Buisson54" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 490.68, -7.76913 )
+
+[node name="Buisson55" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 486.469, -26.7164 )
+
+[node name="Buisson56" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 488.575, -46.7164 )
+
+[node name="Buisson71" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 519.101, -195.137 )
+
+[node name="Buisson70" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 518.048, -216.189 )
+
+[node name="Buisson69" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 518.048, -216.189 )
+
+[node name="Buisson68" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 516.996, -242.505 )
+
+[node name="Buisson67" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 512.785, -261.452 )
+
+[node name="Buisson66" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 514.89, -281.452 )
+
+[node name="Buisson77" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 514.89, -303.558 )
+
+[node name="Buisson76" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 513.838, -324.61 )
+
+[node name="Buisson75" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 513.838, -324.61 )
+
+[node name="Buisson74" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 512.785, -350.926 )
+
+[node name="Buisson73" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 508.574, -369.873 )
+
+[node name="Buisson72" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 510.68, -389.873 )
+
+[node name="Buisson83" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 526.469, -413.031 )
+
+[node name="Buisson82" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 525.417, -434.083 )
+
+[node name="Buisson81" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 525.417, -434.083 )
+
+[node name="Buisson80" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 524.364, -460.399 )
+
+[node name="Buisson79" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 520.153, -479.346 )
+
+[node name="Buisson78" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 522.259, -499.346 )
+
+[node name="Buisson89" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 505.475, -520.335 )
+
+[node name="Buisson88" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 504.422, -541.387 )
+
+[node name="Buisson87" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 504.422, -541.387 )
+
+[node name="Buisson86" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 503.37, -567.703 )
+
+[node name="Buisson85" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 499.159, -586.65 )
+
+[node name="Buisson84" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 501.265, -606.65 )
+
+[node name="Buisson95" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 477.483, -620.641 )
+
+[node name="Buisson94" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 476.43, -641.693 )
+
+[node name="Buisson93" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 476.43, -641.693 )
+
+[node name="Buisson92" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 475.377, -668.009 )
+
+[node name="Buisson91" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 471.167, -686.956 )
+
+[node name="Buisson90" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 473.272, -706.956 )
+
+[node name="Buisson101" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 450.657, -716.281 )
+
+[node name="Buisson100" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 449.604, -737.333 )
+
+[node name="Buisson99" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 449.604, -737.333 )
+
+[node name="Buisson98" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 448.552, -763.649 )
+
+[node name="Buisson97" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 444.341, -782.596 )
+
+[node name="Buisson96" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 446.446, -802.596 )
+
+[node name="Buisson107" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -452.909, 125.488 )
+
+[node name="Buisson106" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -453.961, 104.436 )
+
+[node name="Buisson105" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -453.961, 104.436 )
+
+[node name="Buisson104" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -455.014, 78.12 )
+
+[node name="Buisson103" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -459.225, 59.1727 )
+
+[node name="Buisson102" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -457.119, 39.1727 )
+
+[node name="Buisson113" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -457.919, 15.2567 )
+
+[node name="Buisson112" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -458.972, -5.79596 )
+
+[node name="Buisson111" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -458.972, -5.79596 )
+
+[node name="Buisson110" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -460.025, -32.1116 )
+
+[node name="Buisson109" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -464.235, -51.0589 )
+
+[node name="Buisson108" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -462.13, -71.0589 )
+
+[node name="Buisson119" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -427.856, -83.2838 )
+
+[node name="Buisson118" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -428.909, -104.336 )
+
+[node name="Buisson117" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -428.909, -104.336 )
+
+[node name="Buisson116" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -429.961, -130.652 )
+
+[node name="Buisson115" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -434.172, -149.599 )
+
+[node name="Buisson114" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -432.067, -169.599 )
+
+[node name="Buisson125" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -404.474, -185.165 )
+
+[node name="Buisson124" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -405.526, -206.217 )
+
+[node name="Buisson123" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -405.526, -206.217 )
+
+[node name="Buisson122" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -406.579, -232.533 )
+
+[node name="Buisson121" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -410.79, -251.48 )
+
+[node name="Buisson120" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -408.684, -271.48 )
+
+[node name="Buisson131" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -371.07, -285.375 )
+
+[node name="Buisson130" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -372.123, -306.428 )
+
+[node name="Buisson129" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -372.123, -306.428 )
+
+[node name="Buisson128" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -373.176, -332.743 )
+
+[node name="Buisson127" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -377.386, -351.691 )
+
+[node name="Buisson126" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -375.281, -371.691 )
+
+[node name="Buisson137" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -486.312, -413.979 )
+
+[node name="Buisson136" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -487.365, -435.031 )
+
+[node name="Buisson135" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -487.365, -435.031 )
+
+[node name="Buisson134" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -488.418, -461.347 )
+
+[node name="Buisson133" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -492.628, -480.294 )
+
+[node name="Buisson132" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -490.523, -500.294 )
+
+[node name="Buisson143" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -488.768, -517.108 )
+
+[node name="Buisson142" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -489.82, -538.161 )
+
+[node name="Buisson141" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -489.82, -538.161 )
+
+[node name="Buisson140" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -490.873, -564.477 )
+
+[node name="Buisson139" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -495.084, -583.424 )
+
+[node name="Buisson138" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -492.978, -603.424 )
+
+[node name="Buisson149" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -485.085, -621.466 )
+
+[node name="Buisson148" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -486.137, -642.518 )
+
+[node name="Buisson147" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -486.137, -642.518 )
+
+[node name="Buisson146" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -487.19, -668.834 )
+
+[node name="Buisson145" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -491.401, -687.781 )
+
+[node name="Buisson144" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -489.295, -707.781 )
+
+[node name="Buisson155" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -486.312, -729.267 )
+
+[node name="Buisson156" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -346.701, -899.903 )
+
+[node name="Buisson157" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -386.59, -899.903 )
+
+[node name="Buisson158" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -417.615, -887.715 )
+
+[node name="Buisson159" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -445.315, -874.419 )
+
+[node name="Buisson160" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -463.044, -854.474 )
+
+[node name="Buisson161" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -471.908, -836.746 )
+
+[node name="Buisson162" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -234.627, -97.2235 )
+
+[node name="Buisson163" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -238.31, -75.1244 )
+
+[node name="Buisson154" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -487.365, -748.104 )
+
+[node name="Buisson153" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -487.365, -748.104 )
+
+[node name="Buisson152" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -488.418, -774.419 )
+
+[node name="Buisson151" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -492.628, -793.366 )
+
+[node name="Buisson150" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -490.523, -813.366 )
+
+[node name="Buisson65" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 485.417, -66.7163 )
+
+[node name="Buisson64" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 509.627, -79.3478 )
+
+[node name="Buisson63" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 510.68, -97.2425 )
+
+[node name="Buisson62" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 509.627, -118.295 )
+
+[node name="Buisson61" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 509.627, -118.295 )
+
+[node name="Buisson60" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 508.575, -144.611 )
+
+[node name="Buisson59" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 504.364, -163.558 )
+
+[node name="Buisson58" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 506.469, -183.558 )
+
+[node name="Buisson9" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 354.891, 206.361 )
+
+[node name="Buisson10" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 323.245, 222.184 )
+
+[node name="Buisson11" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 286.326, 223.942 )
+
+[node name="Buisson12" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 242.374, 227.458 )
+
+[node name="Buisson13" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 207.212, 223.942 )
+
+[node name="Buisson14" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 170.292, 220.426 )
+
+[node name="Buisson15" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 140.405, 202.845 )
+
+[node name="Buisson16" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 110.517, 172.958 )
+
+[node name="Buisson17" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 80.6301, 146.586 )
+
+[node name="Buisson18" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 43.7104, 139.554 )
+
+[node name="Buisson19" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 10.3069, 125.49 )
+
+[node name="Buisson20" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -24.8547, 102.634 )
+
+[node name="Buisson21" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -51.226, 83.2956 )
+
+[node name="Buisson22" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -74.0811, 62.1986 )
+
+[node name="Buisson23" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -93.42, 39.3436 )
+
+[node name="Buisson24" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -125.065, -97.7867 )
+
+[node name="Buisson25" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -109.243, -69.6574 )
+
+[node name="Buisson26" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -82.8714, -48.5605 )
+
+[node name="Buisson27" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -56.5002, -62.6251 )
+
+[node name="Buisson3" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 17.3392, -88.9964 )
+
+[node name="Arbre6" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -207.766, 220.734 )
+
+[node name="Arbre7" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -418.793, 133.309 )
+
+[node name="Arbre18" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -424.521, -658.569 )
+
+[node name="Arbre19" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 274.28, -574.083 )
+
+[node name="Arbre20" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 400.293, -786.014 )
+
+[node name="Arbre21" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -17.8419, -631.362 )
+
+[node name="Saime2" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( -361.514, 187.609 )
+
+[node name="Arbre8" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -200.229, 47.3909 )
+
+[node name="Arbre9" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 3.2608, 198.124 )
+
+[node name="Arbre10" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -337.397, 80.5522 )
+
+[node name="Arbre11" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 381.602, -150.07 )
+
+[node name="Saime3" parent="YSort" instance=ExtResource( 10 )]
+position = Vector2( -148.98, 88.1248 )
+
+[node name="Buisson164" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -183.136, 232.066 )
+
+[node name="Buisson165" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -229.864, 245.632 )
+
+[node name="Buisson166" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -260.01, 256.183 )
+
+[node name="Buisson167" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -290.157, 274.271 )
+
+[node name="Buisson168" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -321.811, 292.359 )
+
+[node name="Buisson169" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -364.016, 290.852 )
+
+[node name="Buisson170" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -403.207, 289.345 )
+
+[node name="Buisson171" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 17.3392, -88.9964 )
+
+[node name="Buisson172" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -442.398, 272.764 )
+
+[node name="Buisson173" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -474.052, 245.632 )
+
+[node name="Buisson174" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -490.633, 218.5 )
+
+[node name="Buisson175" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -493.647, 191.368 )
+
+[node name="Buisson176" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -486.111, 168.758 )
+
+[node name="Buisson177" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -468.023, 147.655 )
+
+[node name="Buisson178" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -134.902, 254.676 )
+
+[node name="Buisson179" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -97.2183, 257.691 )
+
+[node name="Buisson180" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -59.5349, 259.198 )
+
+[node name="Buisson181" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -24.8661, 262.213 )
+
+[node name="Buisson182" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 17.3392, 268.242 )
+
+[node name="Buisson183" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 53.5152, 265.227 )
+
+[node name="Buisson184" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 88.1839, 256.183 )
+
+[node name="Buisson185" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 122.853, 250.154 )
+
+[node name="Buisson186" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -156.004, 158.206 )
+
+[node name="Buisson190" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -276.591, 102.435 )
+
+[node name="Buisson191" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -330.855, 66.2591 )
+
+[node name="Buisson192" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -300.708, 81.3324 )
+
+[node name="Buisson193" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -314.274, 48.171 )
+
+[node name="Buisson194" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -315.782, 28.5757 )
+
+[node name="Buisson195" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -452.949, -393.478 )
+
+[node name="Buisson196" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -409.237, -378.405 )
+
+[node name="Buisson197" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -305.23, 7.47299 )
+
+[node name="Buisson198" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 377.592, -126.68 )
+
+[node name="Buisson199" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 386.636, -99.5477 )
+
+[node name="Buisson200" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 352.191, -89.3957 )
+
+[node name="Buisson4" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 64.8074, -87.2384 )
+
+[node name="Buisson5" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 107.001, -81.9641 )
+
+[node name="Buisson6" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 145.679, -60.8671 )
+
+[node name="Buisson7" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 177.325, -30.9798 )
+
+[node name="Buisson255" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 228.303, -287.967 )
+
+[node name="Buisson257" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 228.303, -287.967 )
+
+[node name="Buisson258" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 228.303, -287.967 )
+
+[node name="Buisson259" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 228.303, -287.967 )
+
+[node name="Saime8" parent="YSort" instance=ExtResource( 13 )]
+position = Vector2( 37.713, -302.806 )
+
+[node name="Buisson260" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -236.09, -374.561 )
+
+[node name="Buisson261" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -196.983, -373.164 )
+
+[node name="Buisson262" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -155.781, -374.561 )
+
+[node name="Buisson263" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -115.976, -370.371 )
+
+[node name="Buisson264" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -70.5844, -368.276 )
+
+[node name="Buisson265" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -34.9693, -365.482 )
+
+[node name="Buisson283" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 0.624512, -415.004 )
+
+[node name="Buisson284" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -14.0773, -394.886 )
+
+[node name="Buisson285" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -36.5168, -377.863 )
+
+[node name="Buisson286" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 403.763, -340.721 )
+
+[node name="Buisson287" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 402.215, -364.708 )
+
+[node name="Buisson288" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 406.084, -390.243 )
+
+[node name="Buisson289" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 410.727, -413.456 )
+
+[node name="Buisson290" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 406.084, -443.634 )
+
+[node name="Buisson291" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 379.776, -457.562 )
+
+[node name="Buisson292" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 344.956, -460.657 )
+
+[node name="Buisson293" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 307.339, -463.456 )
+
+[node name="Buisson294" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 267.445, -467.778 )
+
+[node name="Buisson295" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 239.515, -490.502 )
+
+[node name="Buisson296" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 226.93, -514.583 )
+
+[node name="Buisson297" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 211.193, -529.511 )
+
+[node name="Buisson298" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 183.193, -544.764 )
+
+[node name="Buisson299" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 142.676, -552.306 )
+
+[node name="Buisson300" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 102.595, -554.545 )
+
+[node name="Buisson301" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -237.403, -831.386 )
+
+[node name="Buisson320" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -234.245, -475.598 )
+
+[node name="Buisson370" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 421.596, -888.004 )
+
+[node name="Buisson399" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 508.946, -830.726 )
+
+[node name="Saime11" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 126.938, -733.548 )
+
+[node name="Buisson402" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 486.034, -782.039 )
+
+[node name="Buisson403" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 507.514, -802.086 )
+
+[node name="Buisson400" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 493.194, -855.069 )
+
+[node name="Buisson401" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 464.555, -876.549 )
+
+[node name="Buisson371" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 377.205, -886.573 )
+
+[node name="Buisson372" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 334.246, -883.708 )
+
+[node name="Buisson373" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 311.334, -855.069 )
+
+[node name="Buisson374" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 299.879, -833.59 )
+
+[node name="Buisson375" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 298.447, -799.222 )
+
+[node name="Buisson376" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 372.909, -751.968 )
+
+[node name="Buisson377" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 408.708, -743.376 )
+
+[node name="Buisson378" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 294.151, -766.287 )
+
+[node name="Buisson379" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 259.784, -774.879 )
+
+[node name="Buisson380" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 231.144, -802.086 )
+
+[node name="Buisson381" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 202.505, -823.566 )
+
+[node name="Buisson382" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 158.114, -842.181 )
+
+[node name="Buisson383" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 115.155, -837.885 )
+
+[node name="Buisson384" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 80.7875, -829.294 )
+
+[node name="Buisson385" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 42.1244, -813.542 )
+
+[node name="Buisson386" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 2.02933, -809.246 )
+
+[node name="Buisson387" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -48.0896, -812.11 )
+
+[node name="Buisson388" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -91.0486, -817.838 )
+
+[node name="Buisson389" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -202.742, -852.205 )
+
+[node name="Buisson390" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -225.654, -872.253 )
+
+[node name="Buisson391" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -261.453, -886.573 )
+
+[node name="Buisson392" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -300.116, -895.164 )
+
+[node name="Buisson393" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -128.28, -819.27 )
+
+[node name="Buisson394" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 431.62, -651.73 )
+
+[node name="Buisson395" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 390.093, -666.049 )
+
+[node name="Buisson396" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 357.157, -681.801 )
+
+[node name="Buisson397" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 317.062, -687.529 )
+
+[node name="Buisson398" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 269.807, -694.689 )
+
+[node name="Buisson346" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -16.6961, -732.097 )
+
+[node name="Buisson347" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 17.5037, -719.747 )
+
+[node name="Buisson348" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 31.7537, -697.897 )
+
+[node name="Buisson349" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 43.1537, -674.147 )
+
+[node name="Buisson350" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 61.2036, -652.297 )
+
+[node name="Buisson351" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 228.403, -683.647 )
+
+[node name="Buisson352" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 214.153, -661.797 )
+
+[node name="Buisson353" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 200.853, -640.897 )
+
+[node name="Buisson354" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 166.653, -626.647 )
+
+[node name="Buisson355" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 127.703, -634.247 )
+
+[node name="Buisson356" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -361.545, -659.897 )
+
+[node name="Buisson357" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -452.745, -673.197 )
+
+[node name="Buisson358" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 86.8061, -634.544 )
+
+[node name="Buisson359" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 296.279, -585.071 )
+
+[node name="Buisson360" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 318.384, -565.071 )
+
+[node name="Buisson362" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 376.279, -535.597 )
+
+[node name="Buisson364" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 425.752, -824.017 )
+
+[node name="Buisson365" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -387.929, -539.808 )
+
+[node name="Buisson366" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -379.508, -515.598 )
+
+[node name="Buisson367" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -387.929, -485.071 )
+
+[node name="Buisson368" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -302.666, -449.282 )
+
+[node name="Buisson369" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -266.877, -466.124 )
+
+[node name="Buisson321" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -245.824, -500.861 )
+
+[node name="Buisson322" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -257.403, -527.176 )
+
+[node name="Buisson323" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -267.93, -551.387 )
+
+[node name="Buisson324" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -285.824, -576.65 )
+
+[node name="Buisson325" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -320.561, -591.387 )
+
+[node name="Saime10" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( -256.738, -744.602 )
+
+[node name="Buisson326" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -122.667, -462.966 )
+
+[node name="Buisson327" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -134.246, -486.124 )
+
+[node name="Buisson328" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -151.088, -507.177 )
+
+[node name="Buisson329" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -158.456, -527.176 )
+
+[node name="Buisson330" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -167.93, -548.229 )
+
+[node name="Buisson331" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -175.298, -567.176 )
+
+[node name="Buisson332" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -191.088, -588.229 )
+
+[node name="Buisson333" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -193.193, -610.334 )
+
+[node name="Buisson334" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -196.351, -633.492 )
+
+[node name="Buisson335" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -207.93, -654.544 )
+
+[node name="Buisson336" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -242.666, -662.965 )
+
+[node name="Buisson337" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -278.456, -676.65 )
+
+[node name="Buisson338" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -317.403, -674.544 )
+
+[node name="Buisson339" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -341.613, -685.071 )
+
+[node name="Buisson340" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -353.192, -706.123 )
+
+[node name="Buisson341" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -360.561, -733.491 )
+
+[node name="Buisson342" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -361.613, -756.649 )
+
+[node name="Buisson343" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -330.035, -794.544 )
+
+[node name="Buisson344" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -300.561, -809.281 )
+
+[node name="Buisson345" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -268.982, -818.754 )
+
+[node name="Buisson302" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -200.561, -834.544 )
+
+[node name="Buisson303" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -170.035, -816.649 )
+
+[node name="Buisson304" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -168.982, -786.123 )
+
+[node name="Buisson305" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -152.14, -768.228 )
+
+[node name="Buisson306" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -139.509, -746.123 )
+
+[node name="Buisson307" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -135.298, -724.018 )
+
+[node name="Buisson308" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -130.035, -701.913 )
+
+[node name="Buisson309" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -122.667, -675.597 )
+
+[node name="Buisson310" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -117.404, -649.281 )
+
+[node name="Buisson311" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -106.603, -622.277 )
+
+[node name="Buisson312" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -98.0296, -602.558 )
+
+[node name="Buisson313" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -85.1689, -578.551 )
+
+[node name="Buisson314" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -66.3068, -556.26 )
+
+[node name="Buisson315" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 6.56985, -357.349 )
+
+[node name="Saime9" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 108.879, -477.062 )
+
+[node name="Buisson316" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -40.9015, -533.787 )
+
+[node name="Buisson317" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -2.09415, -530.177 )
+
+[node name="Buisson318" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 32.2007, -541.007 )
+
+[node name="Buisson319" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 64.6906, -550.032 )
+
+[node name="Buisson266" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -102.009, -454.869 )
+
+[node name="Buisson272" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -61.506, -448.584 )
+
+[node name="Buisson273" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -27.2876, -438.109 )
+
+[node name="Buisson274" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 12.5175, -430.427 )
+
+[node name="Buisson275" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 50.9259, -421.349 )
+
+[node name="Buisson276" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 87.9377, -416.461 )
+
+[node name="Buisson277" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 122.854, -405.986 )
+
+[node name="Buisson278" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 159.168, -396.209 )
+
+[node name="Buisson279" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 200.37, -390.622 )
+
+[node name="Buisson280" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 233.89, -385.734 )
+
+[node name="Buisson281" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 269.505, -373.862 )
+
+[node name="Buisson282" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 302.327, -361.292 )
+
+[node name="Buisson267" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 52.3226, -351.515 )
+
+[node name="Buisson268" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 87.9377, -342.437 )
+
+[node name="Buisson269" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 124.251, -329.867 )
+
+[node name="Buisson270" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 164.056, -324.28 )
+
+[node name="Buisson405" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 164.056, -324.28 )
+
+[node name="Buisson406" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -445.962, -599.218 )
+
+[node name="Buisson407" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -405.867, -603.514 )
+
+[node name="Buisson408" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -365.772, -596.354 )
+
+[node name="Buisson271" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 199.671, -308.917 )
+
+[node name="Buisson256" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 220.367, -262.95 )
+
+[node name="Saime12" parent="YSort" instance=ExtResource( 10 )]
+position = Vector2( 456.29, -471.498 )
+
+[node name="Buisson361" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( 337.437, -540.233 )
+
+[node name="Buisson363" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( 403.307, -573.168 )
+
+[node name="Buisson404" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( 386.124, -544.529 )
 
 [node name="Nozegan" parent="YSort" instance=ExtResource( 6 )]
 position = Vector2( 192.021, 133.366 )
@@ -56,5 +1440,59 @@ text = "Trouvé !"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Arbre12" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -362.374, -773.314 )
+
+[node name="Arbre15" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -282.764, -292.859 )
+
+[node name="Arbre16" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 309.424, -338.949 )
+
+[node name="Arbre17" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -331.647, -433.923 )
+
+[node name="Arbre13" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -250.021, -360.505 )
+
+[node name="Arbre14" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( -56.2046, -188.734 )
+
+[editable path="YSort/Buisson188"]
+
+[editable path="YSort/Buisson189"]
+
+[editable path="YSort/Buisson201"]
+
+[editable path="YSort/Buisson202"]
+
+[editable path="YSort/Buisson206"]
+
+[editable path="YSort/Buisson208"]
+
+[editable path="YSort/Buisson209"]
+
+[editable path="YSort/Buisson210"]
+
+[editable path="YSort/Buisson211"]
+
+[editable path="YSort/Buisson212"]
+
+[editable path="YSort/Buisson213"]
+
+[editable path="YSort/Buisson214"]
+
+[editable path="YSort/Buisson215"]
+
+[editable path="YSort/Buisson216"]
+
+[editable path="YSort/Buisson217"]
+
+[editable path="YSort/Buisson218"]
+
+[editable path="YSort/Buisson219"]
+
+[editable path="YSort/Buisson220"]
 
 [editable path="YSort/Trycoin2"]
