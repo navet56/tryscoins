@@ -19,10 +19,12 @@ script = ExtResource( 2 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
+volume_db = -18.05
+pitch_scale = 0.98
 
 [node name="Sol" type="Sprite" parent="."]
-position = Vector2( -554.008, -913.833 )
-scale = Vector2( 1.30746, 0.95454 )
+position = Vector2( -554.008, -964.811 )
+scale = Vector2( 1.30746, 0.993754 )
 z_index = -2
 texture = ExtResource( 1 )
 centered = false
@@ -1379,7 +1381,7 @@ position = Vector2( 124.251, -329.867 )
 position = Vector2( 164.056, -324.28 )
 
 [node name="Buisson405" parent="YSort" instance=ExtResource( 4 )]
-position = Vector2( 164.056, -324.28 )
+position = Vector2( 288.398, -814.248 )
 
 [node name="Buisson406" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( -445.962, -599.218 )

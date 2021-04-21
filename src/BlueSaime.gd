@@ -21,7 +21,7 @@ func _physics_process(delta):
 		vector.y = -vector.y
 		
 
-	vector = vector.move_toward(vector*3, 6* delta)
+	vector = vector.move_toward(vector, 4* delta)
 	move_and_slide(vector)
 	
 

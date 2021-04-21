@@ -15,6 +15,7 @@ script = ExtResource( 8 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
+volume_db = -18.05
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -75,6 +76,42 @@ scale = Vector2( 1.30746, 0.95454 )
 
 [node name="Buisson11" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( 2.61433, 151.328 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson116" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -41.4912, -397.785 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson121" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 112.143, -353.68 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson122" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 106.262, -373.527 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson123" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 68.0374, -391.17 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson124" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 15.1109, -397.785 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson117" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -78.9808, -381.613 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson118" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -97.3582, -353.68 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson119" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( -92.2125, -333.832 )
+scale = Vector2( 1.30746, 0.95454 )
+
+[node name="Buisson120" parent="YSort" instance=ExtResource( 4 )]
+position = Vector2( 115.083, -336.038 )
 scale = Vector2( 1.30746, 0.95454 )
 
 [node name="Buisson24" parent="YSort" instance=ExtResource( 4 )]
