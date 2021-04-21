@@ -39,7 +39,7 @@ position = Vector2( 477.723, -19.4021 )
 position = Vector2( 281.776, -307.491 )
 
 [node name="Buisson5" parent="YSort" instance=ExtResource( 4 )]
-position = Vector2( 113.822, 97.233 )
+position = Vector2( -351.552, -96.3812 )
 
 [node name="Buisson6" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( 144.147, -147.701 )
@@ -666,7 +666,7 @@ position = Vector2( -514.6, 60.3909 )
 position = Vector2( -506.179, 90.9173 )
 
 [node name="Buisson147" parent="YSort" instance=ExtResource( 4 )]
-position = Vector2( 113.822, 97.233 )
+position = Vector2( 144.147, -345.98 )
 
 [node name="Buisson148" parent="YSort" instance=ExtResource( 4 )]
 position = Vector2( -466.179, 98.2857 )
@@ -880,8 +880,8 @@ position = Vector2( 192.021, 133.366 )
 current = true
 limit_left = -500
 limit_top = -4000
-limit_right = 500
-limit_bottom = 200
+limit_right = 600
+limit_bottom = 550
 smoothing_enabled = true
 
 [node name="Sol" type="Sprite" parent="."]

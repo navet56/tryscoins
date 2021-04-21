@@ -34,7 +34,8 @@ margin_top = 131.543
 margin_right = 222.139
 margin_bottom = 151.543
 theme = SubResource( 1 )
-text = "Revenir au menu"
+custom_fonts/font = ExtResource( 3 )
+text = "> Revenir au menu"
 switch_on_hover = true
 __meta__ = {
 "_edit_use_anchors_": false
